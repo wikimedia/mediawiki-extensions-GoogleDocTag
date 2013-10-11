@@ -12,7 +12,7 @@ $messages = array();
  * @author Luis Felipe Schenone
  */
 $messages['en'] = array(
-	'googledoctag-desc' => 'Adds <code>&lt;doc&gt;</code> tags for embedding Google Docs',
+	'googledoctag-desc' => 'Adds <code>&lt;gdoc&gt;</code> tags for embedding Google Docs',
 	'googledoctag-noid' => 'The id of the Google Doc is missing.',
 );
 
@@ -28,6 +28,6 @@ $messages['qqq'] = array(
  * @author Luis Felipe Schenone
  */
 $messages['es'] = array(
-	'googledoctag-desc' => 'Añade la etiqueta <code>&lt;doc&gt;</code> para insertar Google Docs',
+	'googledoctag-desc' => 'Añade la etiqueta <code>&lt;gdoc&gt;</code> para insertar Google Docs',
 	'googledoctag-noid' => 'Falta el id del Google Doc.'
 );
