@@ -3,7 +3,7 @@
 class GoogleDocTag {
 
 	public static function setParserHook( Parser $parser ) {
-		$parser->setHook( 'doc', 'GoogleDocTag::embedDoc' );
+		$parser->setHook( 'gdoc', 'GoogleDocTag::embedDoc' );
 		$parser->setHook( 'googledoc', 'GoogleDocTag::embedDoc' );
 		return true;
 	}
