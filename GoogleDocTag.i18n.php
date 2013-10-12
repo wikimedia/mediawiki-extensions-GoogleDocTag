@@ -44,7 +44,7 @@ $messages['es'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
-	'googledoctag-desc' => 'Engade as etiquetas <code>&lt;gdoc&gt;</code> para incorporar Google Docs',
+	'googledoctag-desc' => 'Engade as etiquetas <code>&lt;gdoc&gt;</code> para incorporar documentos de Google Docs',
 	'googledoctag-noid' => 'Falta o identificador do documento de Google.',
 );
 
@@ -56,12 +56,29 @@ $messages['it'] = array(
 	'googledoctag-noid' => "Manca l'id di Google Doc.",
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'googledoctag-desc' => 'Google ドキュメントを埋め込むための <code>&lt;gdoc&gt;</code> タグを追加する',
+	'googledoctag-noid' => 'Google ドキュメントの ID がありません。',
+);
+
 /** Korean (한국어)
  * @author Hym411
+ * @author 아라
  */
 $messages['ko'] = array(
-	'googledoctag-desc' => '내장된 구글 문서도구 문서를 <code>&lt;gdoc&gt;</code> 태그로 추가합니다.',
+	'googledoctag-desc' => 'Google 문서도구를 포함하기 위해 <code>&lt;gdoc&gt;</code> 태그를 추가합니다',
 	'googledoctag-noid' => '구글 문서도구 id가 없습니다.',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'googledoctag-desc' => 'Додава ознаки <code>&lt;gdoc&gt;</code> за вградување на Google Docs',
+	'googledoctag-noid' => 'Назнаката на Google Doc недостасува.',
 );
 
 /** Russian (русский)
@@ -70,4 +87,20 @@ $messages['ko'] = array(
 $messages['ru'] = array(
 	'googledoctag-desc' => 'Добавляет теги <code>&lt;gdoc&gt;</code> для встраивания Google Docs',
 	'googledoctag-noid' => 'Отсутствует идентификатор Google Doc.',
+);
+
+/** Swedish (svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'googledoctag-desc' => 'Lägger till taggen <code>&lt;gdoc&gt;</code> för att bädda in Google Docs',
+	'googledoctag-noid' => 'ID för Google Doc saknas.',
+);
+
+/** Ukrainian (українська)
+ * @author Andriykopanytsia
+ */
+$messages['uk'] = array(
+	'googledoctag-desc' => 'Додає <code>&lt;gdoc&gt;</code> - теґи для вставки Google Docs',
+	'googledoctag-noid' => 'Відсутній ідентифікатор Google Doc.',
 );
