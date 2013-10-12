@@ -13,7 +13,7 @@ $messages = array();
  */
 $messages['en'] = array(
 	'googledoctag-desc' => 'Adds <code>&lt;gdoc&gt;</code> tags for embedding Google Docs',
-	'googledoctag-noid' => 'The id of the Google Doc is missing.',
+	'googledoctag-noid' => 'The ID of the Google Doc is missing.',
 );
 
 /** Message documentation (Message documentation)
