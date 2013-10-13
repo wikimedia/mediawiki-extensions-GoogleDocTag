@@ -104,3 +104,10 @@ $messages['uk'] = array(
 	'googledoctag-desc' => 'Додає <code>&lt;gdoc&gt;</code> - теґи для вставки Google Docs',
 	'googledoctag-noid' => 'Відсутній ідентифікатор Google Doc.',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hans'] = array(
+	'googledoctag-noid' => 'Google文档的ID丢失。',
+);
