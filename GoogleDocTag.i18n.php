@@ -40,6 +40,14 @@ $messages['es'] = array(
 	'googledoctag-noid' => 'Falta el id del Google Doc.',
 );
 
+/** French (français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'googledoctag-desc' => 'Ajoute les balises <code>&lt;gdoc&gt;</code> pour l’inclusion de Google Docs',
+	'googledoctag-noid' => 'L’ID du Google Doc est absent.',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
