@@ -40,6 +40,14 @@ $messages['es'] = array(
 	'googledoctag-noid' => 'Falta el id del Google Doc.',
 );
 
+/** French (français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'googledoctag-desc' => 'Ajoute les balises <code>&lt;gdoc&gt;</code> pour l’inclusion de Google Docs',
+	'googledoctag-noid' => 'L’ID du Google Doc est absent.',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -79,6 +87,21 @@ $messages['ko'] = array(
 $messages['mk'] = array(
 	'googledoctag-desc' => 'Додава ознаки <code>&lt;gdoc&gt;</code> за вградување на Google Docs',
 	'googledoctag-noid' => 'Назнаката на Google Doc недостасува.',
+);
+
+/** Polish (polski)
+ * @author Chrumps
+ */
+$messages['pl'] = array(
+	'googledoctag-noid' => 'Brakuje identyfikatora Google Doc.',
+);
+
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'googledoctag-desc' => 'د گووگل لاسوندونو ورټومبلو لپاره د <code>&lt;gdoc&gt;</code> نښلن ورگډوي',
+	'googledoctag-noid' => 'د گووگل لاسوند پېژند نشته دی',
 );
 
 /** Russian (русский)
