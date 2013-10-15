@@ -89,6 +89,21 @@ $messages['mk'] = array(
 	'googledoctag-noid' => 'Назнаката на Google Doc недостасува.',
 );
 
+/** Polish (polski)
+ * @author Chrumps
+ */
+$messages['pl'] = array(
+	'googledoctag-noid' => 'Brakuje identyfikatora Google Doc.',
+);
+
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'googledoctag-desc' => 'د گووگل لاسوندونو ورټومبلو لپاره د <code>&lt;gdoc&gt;</code> نښلن ورگډوي',
+	'googledoctag-noid' => 'د گووگل لاسوند پېژند نشته دی',
+);
+
 /** Russian (русский)
  * @author Okras
  */
