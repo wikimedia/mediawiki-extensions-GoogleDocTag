@@ -24,6 +24,13 @@ $messages['qqq'] = array(
 	'googledoctag-noid' => 'Error message shown when the use has not specified the id of the Google Doc.',
 );
 
+/** Bengali (বাংলা)
+ * @author Aftab1995
+ */
+$messages['bn'] = array(
+	'googledoctag-noid' => 'গুগল নথির আইডি অনুপস্থিত।',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
