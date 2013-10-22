@@ -24,6 +24,14 @@ $messages['qqq'] = array(
 	'googledoctag-noid' => 'Error message shown when the use has not specified the id of the Google Doc.',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'googledoctag-desc' => 'Amiesta les etiquetes <code>&lt;gdoc&gt;</code> pa inxertar documentos de Google Docs',
+	'googledoctag-noid' => "Falta l'identificador de Google Doc.",
+);
+
 /** Bengali (বাংলা)
  * @author Aftab1995
  */
