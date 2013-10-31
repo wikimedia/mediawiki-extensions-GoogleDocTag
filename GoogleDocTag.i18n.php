@@ -48,11 +48,12 @@ $messages['de'] = array(
 );
 
 /** Spanish (español)
+ * @author Fitoschido
  * @author Luis Felipe Schenone
  */
 $messages['es'] = array(
-	'googledoctag-desc' => 'Añade la etiqueta <code>&lt;gdoc&gt;</code> para insertar Google Docs',
-	'googledoctag-noid' => 'Falta el id del Google Doc.',
+	'googledoctag-desc' => 'Añade la etiqueta <code>&lt;gdoc&gt;</code> para insertar documentos de Google',
+	'googledoctag-noid' => 'Falta el identificador del documento de Google.',
 );
 
 /** French (français)
@@ -102,6 +103,14 @@ $messages['ko'] = array(
 $messages['mk'] = array(
 	'googledoctag-desc' => 'Додава ознаки <code>&lt;gdoc&gt;</code> за вградување на Google Docs',
 	'googledoctag-noid' => 'Назнаката на Google Doc недостасува.',
+);
+
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'googledoctag-desc' => 'Apond las balisas <code>&lt;gdoc&gt;</code> per l’inclusion de Google Docs',
+	'googledoctag-noid' => 'L’ID del Google Doc es absent.',
 );
 
 /** Polish (polski)
