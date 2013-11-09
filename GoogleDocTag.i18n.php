@@ -156,5 +156,6 @@ $messages['uk'] = array(
  * @author Liuxinyu970226
  */
 $messages['zh-hans'] = array(
+	'googledoctag-desc' => '加入<code>&lt;gdoc&gt;</code>标签以添加Google文档',
 	'googledoctag-noid' => 'Google文档的ID丢失。',
 );
