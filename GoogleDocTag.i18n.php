@@ -105,6 +105,14 @@ $messages['mk'] = array(
 	'googledoctag-noid' => 'Назнаката на Google Doc недостасува.',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'googledoctag-desc' => 'Voegt het label <code>&lt;gdoc&gt;</code> toe voor het inbedden van Google Docs',
+	'googledoctag-noid' => 'Het ID van het Google Doc ontbreekt.',
+);
+
 /** Occitan (occitan)
  * @author Cedric31
  */
