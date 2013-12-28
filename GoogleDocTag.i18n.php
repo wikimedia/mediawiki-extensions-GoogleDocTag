@@ -72,6 +72,14 @@ $messages['gl'] = array(
 	'googledoctag-noid' => 'Falta o identificador do documento de Google.',
 );
 
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'googledoctag-desc' => 'Přidawa elementy <code>&lt;gdoc&gt;</code> za zasadźenje Google Docs',
+	'googledoctag-noid' => 'ID dokumenta Google Docs faluje.',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
