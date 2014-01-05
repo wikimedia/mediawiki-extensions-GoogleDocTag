@@ -56,6 +56,14 @@ $messages['es'] = array(
 	'googledoctag-noid' => 'Falta el identificador del documento de Google.',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'googledoctag-desc' => 'اضافه‌ کردن برچسب‌های <code>&lt;gdoc&gt;</code> برای نصب داک‌های گوگل',
+	'googledoctag-noid' => 'شناسهٔ داک‌های گوگل گم شده‌است.',
+);
+
 /** French (français)
  * @author Gomoko
  */
