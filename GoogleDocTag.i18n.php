@@ -113,6 +113,14 @@ $messages['ko'] = array(
 	'googledoctag-noid' => '구글 문서도구 id가 없습니다.',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'googledoctag-desc' => 'Brängk dä <codelang="en" xml:lang="en">&lt;gdoc&gt;</code>-Befähl för   Zeusch vun <i="en" xml:lang="en">Google Docs</i> heh em Wiki enzebädde.',
+	'googledoctag-noid' => 'De Kännong vum <i="en" xml:lang="en">Google Doc</i> fählt.',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
