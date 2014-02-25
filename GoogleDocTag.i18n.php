@@ -80,6 +80,14 @@ $messages['gl'] = array(
 	'googledoctag-noid' => 'Falta o identificador do documento de Google.',
 );
 
+/** Hebrew (עברית)
+ * @author Yona b
+ */
+$messages['he'] = array(
+	'googledoctag-desc' => 'מוסיף תגי <code>&lt;gdoc&gt;</code> כדי ליצור מסמכי גוגל',
+	'googledoctag-noid' => 'המזהה של מסמך גוגל חסר.',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
