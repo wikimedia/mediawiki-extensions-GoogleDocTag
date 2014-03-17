@@ -176,6 +176,14 @@ $messages['ru'] = array(
 	'googledoctag-noid' => 'Отсутствует идентификатор Google Doc.',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'googledoctag-desc' => 'Adds <code>&lt;gdoc&gt;</code> tags fer embeddin Google Docs',
+	'googledoctag-noid' => 'The ID o the Google Doc is missin.',
+);
+
 /** Swedish (svenska)
  * @author WikiPhoenix
  */
