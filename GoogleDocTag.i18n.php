@@ -180,7 +180,7 @@ $messages['ru'] = array(
  * @author John Reid
  */
 $messages['sco'] = array(
-	'googledoctag-desc' => 'Adds <code>&lt;gdoc&gt;</code> tags fer embeddin Google Docs',
+	'googledoctag-desc' => 'Eiks <code>&lt;gdoc&gt;</code> tags fer embeddin Google Docs',
 	'googledoctag-noid' => 'The ID o the Google Doc is missin.',
 );
 
