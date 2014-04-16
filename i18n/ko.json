@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Hym411",
-            "아라"
-        ]
-    },
-    "googledoctag-desc": "Google 문서도구를 포함하기 위해 <code>&lt;gdoc&gt;</code> 태그를 추가합니다",
-    "googledoctag-noid": "구글 문서도구 id가 없습니다."
+	"@metadata": {
+		"authors": [
+			"Hym411",
+			"아라"
+		]
+	},
+	"googledoctag-desc": "Google 문서도구를 포함하기 위해 <code>&lt;gdoc&gt;</code> 태그를 추가합니다",
+	"googledoctag-noid": "구글 문서도구 id가 없습니다."
 }

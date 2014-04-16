@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Metalhead64"
-        ]
-    },
-    "googledoctag-desc": "Ergänzt <code>&lt;gdoc&gt;</code>-Tags zum Einbetten von Google Docs",
-    "googledoctag-noid": "Die Kennung des Google Docs fehlt."
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"googledoctag-desc": "Ergänzt <code>&lt;gdoc&gt;</code>-Tags zum Einbetten von Google Docs",
+	"googledoctag-noid": "Die Kennung des Google Docs fehlt."
 }
