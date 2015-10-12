@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Luis Felipe Schenone"
-        ]
-    },
-    "googledoctag-desc": "Adds <code>&lt;gdoc&gt;</code> tags for embedding Google Docs",
-    "googledoctag-noid": "The ID of the Google Doc is missing."
+	"@metadata": {
+		"authors": [
+			"Luis Felipe Schenone"
+		]
+	},
+	"googledoctag-desc": "Adds <code>&lt;gdoc&gt;</code> tags for embedding Google Docs",
+	"googledoctag-noid": "The ID of the Google Doc is missing."
 }
