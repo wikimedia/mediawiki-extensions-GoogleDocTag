@@ -10,7 +10,6 @@ $wgExtensionCredits['parserhook'][] = array(
 );
 
 $wgMessagesDirs['GoogleDocTag'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['GoogleDocTag'] = __DIR__ . '/GoogleDocTag.i18n.php';
 
 $wgAutoloadClasses['GoogleDocTag'] = __DIR__ . '/GoogleDocTag.body.php';
 
