@@ -1,0 +1,23 @@
+{
+	"name": "GoogleDocTag",
+	"version": "0.5.0",
+	"author": [
+		"Reddo",
+		"Luis Felipe Schenone"
+	],
+	"url": "http://www.mediawiki.org/wiki/Extension:GoogleDocTag",
+	"descriptionmsg": "googledoctag-desc",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"GoogleDocTag": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"GoogleDocTag": "GoogleDocTag.body.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "GoogleDocTag::setParserHook"
+	},
+	"manifest_version": 2
+}

@@ -1,16 +1,15 @@
 <?php
 
-$wgExtensionCredits['parserhook'][] = array(
-	'path'           => __FILE__,
-	'name'           => 'GoogleDocTag',
-	'descriptionmsg' => 'googledoctag-desc',
-	'author'         => array( 'Reddo', 'Luis Felipe Schenone' ),
-	'version'        => '0.4.0',
-	'url'            => 'http://www.mediawiki.org/wiki/Extension:GoogleDocTag',
-);
-
-$wgMessagesDirs['GoogleDocTag'] = __DIR__ . '/i18n';
-
-$wgAutoloadClasses['GoogleDocTag'] = __DIR__ . '/GoogleDocTag.body.php';
-
-$wgHooks['ParserFirstCallInit'][] = 'GoogleDocTag::setParserHook';
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'GoogleDocTag' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['GoogleDocTag'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for the GoogleDocTag extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the GoogleDocTag extension requires MediaWiki 1.29+' );
+}
