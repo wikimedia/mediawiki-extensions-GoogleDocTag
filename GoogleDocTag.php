@@ -1,15 +1,23 @@
 <?php
 
-if ( function_exists( 'wfLoadExtension' ) ) {
-	wfLoadExtension( 'GoogleDocTag' );
-	// Keep i18n globals so mergeMessageFileList.php doesn't break
-	$wgMessagesDirs['GoogleDocTag'] = __DIR__ . '/i18n';
-	wfWarn(
-		'Deprecated PHP entry point used for the GoogleDocTag extension. ' .
-		'Please use wfLoadExtension instead, ' .
-		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
-	);
-	return;
-} else {
-	die( 'This version of the GoogleDocTag extension requires MediaWiki 1.29+' );
+class GoogleDocTag {
+
+	public static function setParserHook( Parser $parser ) {
+		$parser->setHook( 'gdoc', 'GoogleDocTag::embedDoc' );
+		$parser->setHook( 'googledoc', 'GoogleDocTag::embedDoc' );
+		return true;
+	}
+
+	public static function embedDoc( $input, array $args, Parser $parser, PPFrame $frame ) {
+
+		if ( ! array_key_exists( 'id', $args ) ) {
+			return wfMessage( 'googledoctag-noid' )->text();
+		}
+		$id = $args['id'];
+
+		$width = array_key_exists( 'width', $args ) ? $args['width'] : '100%';
+		$height = array_key_exists( 'height', $args ) ? $args['height'] : '1000px';
+
+		return '<iframe src="https://docs.google.com/document/d/' . $id . '" width="' . $width . '" height="' . $height . '" frameBorder="0"></iframe>';
+	}
 }

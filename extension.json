@@ -1,6 +1,6 @@
 {
 	"name": "GoogleDocTag",
-	"version": "0.5.0",
+	"version": "0.5",
 	"author": [
 		"Reddo",
 		"[https://www.mediawiki.org/wiki/User:Sophivorus Felipe Schenone]"
@@ -17,7 +17,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"GoogleDocTag": "GoogleDocTag.body.php"
+		"GoogleDocTag": "GoogleDocTag.php"
 	},
 	"Hooks": {
 		"ParserFirstCallInit": "GoogleDocTag::setParserHook"
