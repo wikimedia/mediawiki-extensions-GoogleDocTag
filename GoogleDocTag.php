@@ -5,7 +5,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'name'           => 'GoogleDocTag',
 	'descriptionmsg' => 'googledoctag-desc',
 	'author'         => array( 'Reddo', 'Luis Felipe Schenone' ),
-	'version'        => '0.4.0',
+	'version'        => '0.4.1',
 	'url'            => 'http://www.mediawiki.org/wiki/Extension:GoogleDocTag',
 );
 
