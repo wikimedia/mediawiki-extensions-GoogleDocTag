@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
-			"Railfail536"
+			"Railfail536",
+			"Rail"
 		]
 	},
 	"googledoctag-desc": "Dodaje tag <code>&lt;gdoc&gt;</code>, służący do osadzania Dokumentów Google",
