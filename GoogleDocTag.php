@@ -2,15 +2,23 @@
 
 class GoogleDocTag {
 
+	/**
+	 * @param Parser $parser
+	 */
 	public static function setParserHook( Parser $parser ) {
 		$parser->setHook( 'gdoc', 'GoogleDocTag::embedDoc' );
 		$parser->setHook( 'googledoc', 'GoogleDocTag::embedDoc' );
-		return true;
 	}
 
+	/**
+	 * @param string $input
+	 * @param array $args
+	 * @param Parser $parser
+	 * @param PPFrame $frame
+	 * @return bool
+	 */
 	public static function embedDoc( $input, array $args, Parser $parser, PPFrame $frame ) {
-
-		if ( ! array_key_exists( 'id', $args ) ) {
+		if ( !array_key_exists( 'id', $args ) ) {
 			return wfMessage( 'googledoctag-noid' )->parse();
 		}
 		$id = $args['id'];
