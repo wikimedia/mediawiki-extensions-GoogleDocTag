@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Andriykopanytsia",
-			"DDPAT"
+			"DDPAT",
+			"Ice bulldog"
 		]
 	},
 	"googledoctag-desc": "Додає <code>&lt;gdoc&gt;</code> - теги для вставки Google Docs",
