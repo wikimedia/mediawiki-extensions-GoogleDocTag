@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yona b"
+			"Yona b",
+			"Amire80"
 		]
 	},
-	"googledoctag-desc": "מוסיף תגי <code>&lt;gdoc&gt;</code> כדי ליצור מסמכי גוגל",
+	"googledoctag-desc": "הוספת תגי <code>&lt;gdoc&gt;</code> כדי להטביע מסמכי גוגל",
 	"googledoctag-noid": "המזהה של מסמך גוגל חסר."
 }
