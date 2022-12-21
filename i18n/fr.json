@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
 	"googledoctag-desc": "Ajoute les balises <code>&lt;gdoc&gt;</code> pour l’inclusion de Google Docs",
-	"googledoctag-noid": "L’ID du Google Doc est absent."
+	"googledoctag-noid": "L’identifiant du Google Doc est manquant."
 }
