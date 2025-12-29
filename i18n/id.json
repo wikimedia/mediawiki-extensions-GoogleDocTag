@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Daud I.F. Argana"
+			"Daud I.F. Argana",
+			"Penyuwangi"
 		]
 	},
-	"googledoctag-desc": "Menambahkan tag <code>&lt;gdoc&gt;</code> untuk menanamkan Google Docs",
+	"googledoctag-desc": "Menambahkan tanda <code>&lt;gdoc&gt;</code> untuk membenamkan Google Docs",
 	"googledoctag-noid": "ID dari Google Doc tidak ada."
 }
