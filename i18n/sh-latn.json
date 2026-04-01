@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
 	"googledoctag-desc": "Dodaje oznake <code>&lt;gdoc&gt;</code> za ugrađivanje Google Docs",
-	"googledoctag-noid": "Naznaka Google Doc-a nedostaje."
+	"googledoctag-noid": "ID Google Doca nedostaje."
 }
