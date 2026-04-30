@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Red Winged Duck"
+			"Red Winged Duck",
+			"Ucukor"
 		]
 	},
 	"googledoctag-desc": "Дадае тэг <code>&lt;gdoc&gt;</code> для ўстаўкі Google Docs",
-	"googledoctag-noid": "Адсутнічае ідэнтыфікатар Google Doc."
+	"googledoctag-noid": "Бракуе ідэнтыфікатару Google Doc."
 }
