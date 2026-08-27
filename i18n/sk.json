@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"googledoctag-desc": "Pridáva značky <code>&lt;gdoc&gt;</code> na vkladanie dokumentov Google Docs",
+	"googledoctag-noid": "Chýba ID dokumentu Google Doc."
+}
